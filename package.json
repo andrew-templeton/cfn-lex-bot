@@ -1,0 +1,35 @@
+{
+  "name": "cfn-lex-bot",
+  "version": "1.0.3",
+  "description": "AWS CloudFormation Custom Lambda Resource | AWS Lex Bot",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node ./node_modules/cfn-lambda/deploy.js --regions us-east-1 --logs --public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/cfn-lex-bot.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "lambda",
+    "backed",
+    "custom",
+    "resource",
+    "lex",
+    "bot",
+    "chatbot",
+    "bot",
+    "bots"
+  ],
+  "author": "Andrew Templeton <andrw.tmplton@gmail.com> (https://github.com/andrew-templeton)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/cfn-lex-bot/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/cfn-lex-bot#readme",
+  "dependencies": {
+    "cfn-lambda": "2.1.1"
+  }
+}

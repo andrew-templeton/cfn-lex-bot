@@ -1,0 +1,14 @@
+coverage
+node_modules
+.DS_Store
+coverage
+node_modules
+.npm
+.node_repl_history
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+
