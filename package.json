@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/andrew-templeton/cfn-lex-bot#readme",
   "dependencies": {
-    "cfn-lambda": "2.1.1"
+    "cfn-lambda": "^4.0.0"
   }
 }
