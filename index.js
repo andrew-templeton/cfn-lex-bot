@@ -9,7 +9,8 @@ var LexModelBuildingService = new AWS.LexModelBuildingService({
 
 // CloudFormation sends everything as a String, have to coerce these values.
 const boolProperties = [
-  'childDirected'
+  'childDirected',
+  'detectSentiment'
 ]
 
 // CloudFormation sends everything as a String, have to coerce these values.
